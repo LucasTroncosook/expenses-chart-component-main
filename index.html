@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+  <section class="container">
+    <div>
+      <header class="header">
+        <nav class="header-nav">
+          <span>My balance</span>
+          <h3>$921.48</h3>
+        </nav>
+        <figure class="header-figure">
+          <img src="./images/logo.svg" alt="logo">
+        </figure>
+      </header>
+    </div>
+
+    <div>
+      <main class="main">
+        <header class="main-header">
+          <h2>Spending - Last 7 days</h2>
+        </header>
+
+        <section class="main-grafico">
+          <ul id="grafico">
+          </ul>
+        </section>
+
+        <footer class="main-footer">
+          <section class="total-month">
+            <span>Total this month</span>
+            <h2>$478.33</h2>
+          </section>
+
+          <section class="last-month">
+            <h3>+2.4%</h3>
+            <span>from last month</span>
+          </section>
+        </footer>
+      </main>
+    </div>
+  </section>
+  <script src="./js/grafico.js"></script>
+</body>
+</html>
